@@ -1,8 +1,8 @@
-package io.hackages.learning.fizbuzz; 
+package io.hackages.learning.fizzbuzz;
 
 public class Main {
 
     public String transform(Integer number) {
-        throw new RuntimeException("TODO");
+        return number.toString();
     }
 }
