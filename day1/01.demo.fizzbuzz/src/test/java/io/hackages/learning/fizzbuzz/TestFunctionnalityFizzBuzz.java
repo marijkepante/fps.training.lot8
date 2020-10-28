@@ -10,14 +10,17 @@ public class TestFunctionnalityFizzBuzz {
     @Test
     public void test_fizzbuzz() {
         // Goal : print a number
-        assertEquals("1", main.transform(1), "1");
-        assertEquals("2", main.transform(2), "2");
-        assertEquals("Fizz", main.transform(3), "Fizz");
-        assertEquals("4", main.transform(4), "4");
-        assertEquals("Buzz", main.transform(5), "Buzz");
-        assertEquals("Fizz", main.transform(6), "Fizz");
-        assertEquals("Buzz", main.transform(10), "Buzz");
-        assertEquals("FizzBuzz", main.transform(15), "FizzBuzz");
+        for (int i = 1 ; i< 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                assertEquals("FizzBuzz", main.transform(i), "FizzBuzz");
+            } else if (i % 3 == 0) {
+                assertEquals("Fizz", main.transform(i), "Fizz");
+            } else if (i % 5 == 0) {
+                assertEquals("Buzz", main.transform(i), "Buzz");
+            } else {
+                assertEquals(String.valueOf(i), main.transform(i), String.valueOf(i));
+            }
+        }
     }
 
 }
