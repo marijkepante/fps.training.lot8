@@ -1,4 +1,4 @@
-package io.hackages.learning.fizbuzz; 
+package io.hackages.learning.fizzbuzz;
 
 import org.junit.jupiter.api.Test;
 
