@@ -13,6 +13,10 @@ public class TestFunctionnalityFizzBuzz {
         assertEquals("1", main.transform(1), "1");
         assertEquals("2", main.transform(2), "2");
         assertEquals("Fizz", main.transform(3), "Fizz");
+        assertEquals("4", main.transform(4), "4");
+        assertEquals("Buzz", main.transform(5), "5");
+        assertEquals("Fizz", main.transform(6), "6");
+        assertEquals("Buzz", main.transform(10), "10");
     }
 
 }
