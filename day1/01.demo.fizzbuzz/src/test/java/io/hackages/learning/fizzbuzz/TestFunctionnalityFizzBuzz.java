@@ -9,9 +9,10 @@ public class TestFunctionnalityFizzBuzz {
 
     @Test
     public void test_fizzbuzz() {
-        // Goal : print a number 1
-        String transformed = main.transform(1);
-        assertEquals("1", transformed, "1");
+        // Goal : print a number
+        assertEquals("1", main.transform(1), "1");
+        assertEquals("2", main.transform(2), "2");
+        assertEquals("Fizz", main.transform(3), "Fizz");
     }
 
 }
