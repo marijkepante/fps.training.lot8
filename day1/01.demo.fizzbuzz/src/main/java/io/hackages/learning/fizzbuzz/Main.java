@@ -1,4 +1,4 @@
-package io.hackages.learning.fizbuzz; 
+package io.hackages.learning.fizzbuzz;
 
 public class Main {
 
