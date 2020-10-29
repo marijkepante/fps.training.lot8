@@ -1,5 +1,5 @@
-day2
 day3
 target
 *.iml
 .idea
+.DS_Store
