@@ -17,25 +17,24 @@ public class FirstFeatureSteps {
 
     @Before
     public void beforeAll() {
+        //  Initialisation of the system
         gildedRose = new GildedRose(Inventory.getItems());
+        itemToAdd = new Item();
     }
 
     @Given("^an item \"([^\"]*)\"$")
     public void an_item(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        System.out.println("There is an item ");
+        itemToAdd.setName(arg1);
     }
 
     @Given("^the quality is (\\d+)$")
     public void the_quality_is(int arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        System.out.println("The item has a defined quality");
+        itemToAdd.setQuality(arg1);
     }
 
     @Given("^the sell in is (\\d+)$")
     public void the_sell_in_is(int arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        System.out.println("The item has a defined sell value");
+        itemToAdd.setSellIn(arg1);
     }
 
     @When("^I update quality$")
