@@ -9,7 +9,8 @@
       <class name="io.hackages.learning.exercise00.testClass.TestGoogleHomePage"/>
       <class name="io.hackages.learning.exercise00.testClass.TestGoogleHomePageForElements"/>
       -->
-      
+      <class name="io.hackages.learning.exercise00.testClass.TestElementsDropdown"/>
+
     </classes>
   </test>  
 </suite>
