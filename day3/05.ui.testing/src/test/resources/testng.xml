@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="5">
+  <test name="TestExercise00">
+    <classes>
+      
+      <!--
+      <class name="io.hackages.learning.exercise00.testClass.TestGoogleHomePage"/>
+      <class name="io.hackages.learning.exercise00.testClass.TestGoogleHomePageForElements"/>
+      -->
+      
+    </classes>
+  </test>  
+</suite>
