@@ -2,8 +2,7 @@
 
 ## Agenda 
 
-* Basic Selenium WebDriver Setup 
-*  
+* Basic Selenium WebDriver Setup   
 
 ## Basic Selenium WebDriver Setup 
 
@@ -20,14 +19,9 @@
 ```xml
  <suite name="TestSuite" verbose="5">
 ```
+with
 ```xml
  <suite name="TestSuite" verbose="5" parallel="classes" thread-count="5">
 ```
-## 
-
-* 
-    * 
-    * 
-    * 
 
 ## Resources
