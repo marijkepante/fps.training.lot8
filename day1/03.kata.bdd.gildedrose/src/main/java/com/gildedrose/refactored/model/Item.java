@@ -1,12 +1,12 @@
-package com.gildedrose;
+package com.gildedrose.refactored.model;
 
 public class Item {
 
-    public String name;
+    private String name;
 
-    public int sellIn;
+    private int sellIn;
 
-    public int quality;
+    private int quality;
 
     public Item() {}
 
@@ -44,4 +44,12 @@ public class Item {
    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
+
+   public void updateQuality(int value) {
+        setQuality(getQuality() + value);
+   }
+
+   public void updateSellIn(int value) {
+        setSellIn(getSellIn() + value);
+   }
 }
