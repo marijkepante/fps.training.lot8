@@ -41,9 +41,10 @@ public class TestNgTestBase {
 
   @BeforeMethod
   public void initWebDriver() {
-
+    LOG.info("capabilities.getBrowserName() >> " , capabilities.getBrowserName());
+    System.out.println("capabilities.getBrowserName() >> " + capabilities.getBrowserName());
     switch (capabilities.getBrowserName()) {
-      case "internet":
+      case "ie":
         WebDriverManager.iedriver().setup();
         break;
 /*
