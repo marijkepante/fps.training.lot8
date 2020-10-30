@@ -41,13 +41,19 @@ public class TestNgTestBase {
 
   @BeforeMethod
   public void initWebDriver() {
+
     switch (capabilities.getBrowserName()) {
+      case "internet":
+        WebDriverManager.iedriver().setup();
+        break;
+/*
       case "chrome" :
         WebDriverManager.chromedriver().setup();
         break;
       case "firefox" :
         WebDriverManager.firefoxdriver().setup();
         break;
+ */
     }
     driver = WebDriverPool.DEFAULT.getDriver(gridHubUrl, capabilities);
     driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.MINUTES);
