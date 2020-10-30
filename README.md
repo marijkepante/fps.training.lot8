@@ -10,7 +10,9 @@
 
 * [Excercise 4](/day2/04.testing.restapi/README.md) 
 
+## Day 2
+
+* [Excercise 5](/day3/05.ui.testing/README.md) 
+
 # Resources
 * JUnit 5 documentation [JUnit 5](https://junit.org/junit5/) 
-
-

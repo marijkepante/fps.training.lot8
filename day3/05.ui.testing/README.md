@@ -3,8 +3,7 @@
 ## Agenda 
 
 * Basic Selenium WebDriver Setup 
-* 
-* 
+*  
 
 ## Basic Selenium WebDriver Setup 
 
