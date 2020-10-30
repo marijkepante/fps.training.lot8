@@ -10,7 +10,7 @@
 
 * [Excercise 4](/day2/04.testing.restapi/README.md) 
 
-## Day 2
+## Day 3
 
 * [Excercise 5](/day3/05.ui.testing/README.md) 
 
