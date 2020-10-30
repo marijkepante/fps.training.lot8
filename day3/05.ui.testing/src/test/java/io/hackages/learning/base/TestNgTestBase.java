@@ -44,7 +44,7 @@ public class TestNgTestBase {
     LOG.info("capabilities.getBrowserName() >> " , capabilities.getBrowserName());
     System.out.println("capabilities.getBrowserName() >> " + capabilities.getBrowserName());
     switch (capabilities.getBrowserName()) {
-      case "ie":
+      case "internet explorer":
         WebDriverManager.iedriver().setup();
         break;
 /*
